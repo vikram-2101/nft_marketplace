@@ -1,0 +1,11 @@
+.discover {
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in;
+  z-index: 2222222222;
+}
+
+.discover:hover {
+  background-color: #6d7791;
+  color: #d3dae7;
+  border-radius: 0.3rem;
+}
