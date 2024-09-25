@@ -8,6 +8,10 @@ import Subscribe from "./Subscribe/Subscribe";
 import Title from "./Title/Title";
 import Category from "./Category/Category";
 import Filter from "./Filter/Filter";
+import NFTCard from "./NFTCard/NFTCard";
+import Collection from "./Collection/Collection";
+import AudioLive from "./AudioLive/AudioLive";
+import LikeProfile from "./LikeProfile/LikeProfile";
 export {
   Button,
   Footer,
@@ -19,4 +23,8 @@ export {
   Title,
   Category,
   Filter,
+  NFTCard,
+  Collection,
+  AudioLive,
+  LikeProfile,
 };
