@@ -13,6 +13,10 @@ import {
   NFTCard,
   Collection,
   AudioLive,
+  FollowerTab,
+  Slider,
+  Brand,
+  Video,
 } from "../components/componentsindex";
 
 const Home = () => {
@@ -26,10 +30,12 @@ const Home = () => {
         paragraph="Discover the most outstanding NFTs in all topics of life."
       />
       <AudioLive />
-      <Title
+      {/* <Title
         heading="New Collection"
         paragraph="Discover the most outstanding NFTs in all topics of life."
-      />
+      /> */}
+      <FollowerTab />
+      <Slider />
       <Collection />
       <Title
         heading="Featured NFTs"
@@ -43,6 +49,8 @@ const Home = () => {
       />
       <Category />
       <Subscribe />
+      <Brand />
+      <Video />
     </div>
   );
 };
