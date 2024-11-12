@@ -43,7 +43,29 @@ import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import eran from "./eran.png";
 import NFTVideo from "./nftVideo.png";
+import upload from "./upload.png";
+import hero2 from "./hero2.png";
+import provider1 from "./provider-1.png";
+import provider2 from "./provider-2.png";
+import provider3 from "./provider-3.png";
+import provider4 from "./provider-4.png";
+import founder1 from "./founder1.jpg";
+import founder2 from "./founder2.jpg";
+import founder3 from "./founder3.jpg";
+import founder4 from "./founder4.jpg";
+import loader from "./loadergif.gif";
 export default {
+  loader,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
+  upload,
+  hero2,
+  provider1,
+  provider2,
+  provider3,
+  provider4,
   collection,
   update,
   musiceWave,

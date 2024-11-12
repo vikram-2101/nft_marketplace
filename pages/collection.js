@@ -5,8 +5,8 @@ import Style from "../styles/collection.module.css";
 import images from "../img";
 import {
   Banner,
-  CollectionProfile,
   NFTCardTwo,
+  CollectionProfile,
 } from "../collectionPage/collectionIndex";
 import { Slider, Brand } from "../components/componentsindex";
 import Filter from "../components/Filter/Filter";
@@ -28,7 +28,6 @@ const collection = () => {
       <CollectionProfile />
       <Filter />
       <NFTCardTwo NFTData={collectionArray} />
-
       <Slider />
       <Brand />
     </div>
